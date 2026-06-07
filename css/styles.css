@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    color: black;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: min(90%, 1000px);
+    margin: 0 auto;
+}
+
+nav {
+    background-color: black;
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 16px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    flex-wrap: wrap; 
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+a, a:visited {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: rgb(1, 194, 194);
+    text-decoration: underline;
+    outline: none;
+}
+
+nav a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover, a:focus {
+    color: rgb(0, 241, 241);
+    text-decoration: underline;
+    outline: none;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+ul:not(nav ul) {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, td {
+    border: 1px solid black;
+}
