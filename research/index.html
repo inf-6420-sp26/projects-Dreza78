@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Project</title>
+
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Georgia, serif;
+}
+
+nav {
+  border-top: 2px solid #666;
+  background-color: #f2f2f2;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+nav h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+} 
+
+.semantic-label {
+  background-color: #f2f2f2;
+  color: #555;
+  padding: 8px 10px;
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Research Project 2.1</h1>
+    <p>Nick Gallagher</p>
+  </header>
+
+  <nav>
+    <h2>JUMP TO:</h2>
+    <ul>
+      <li><a href="#page-selection">Page selection</a></li>
+      <li><a href="#major-sections">Major sections</a></li>
+      <li><a href="#headings">Headings</a></li>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#accessibility">Accessibility</a></li>
+      <li><a href="#validation">Validation</a></li>
+      <li><a href="#summary">Summary</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="page-selection">
+      <h2>Page Selection</h2>
+
+      <h3>Bachelor of Science in Computer Science</h3>
+
+      <p>
+        <a href="https://engineering.wayne.edu/computer-science/academics/bachelor-computer-science">
+            https://engineering.wayne.edu/computer-science/academics/bachelor-computer-science
+        </a>
+      </p>
+
+      <p>
+        I selected the Bachelor of Science in Computer Science page from Wayne State University's College of Engineering website. This is the page of my major. This page provides detailed information about the degree program and contains a well-organized structure that is easy to analyze using HTML5 semantic elements. The page includes a header, navigation menus, main content, images, multiple headings, lists, and a footer. Because it contains all of the required structural components, it is an ideal page for evaluating web page organization, accessibility, and semantic markup.
+      </p>
+    </section>
+
+    <section id="major-sections">
+      <h2>Major Sections</h2>
+
+      <section>
+        <h3>Site Header</h3>
+        <img src="images/header.png" alt="Screenshot of the Wayne State University site header">
+        <p class="semantic-label">header</p>
+        <p>
+         In this section, there is a site header that should be marked up with a <code>&lt;header&gt;</code> element because it contains the university logo, search bar, and contact information. The header provides important branding and navigation elements that are consistent across the entire website. It appears at the top of the page and serves as an introduction to the site, making it an appropriate use of the <code>&lt;header&gt;</code> semantic element.
+        </p>
+      </section>
+
+      <section>
+        <h3>Primary Navigation</h3>
+        <img src="images/primary-navigation.png" alt="Screenshot of the main navigation menu">
+        <p class="semantic-label">nav</p>
+        <p>
+            In this section, there is a primary navigation menu that should be marked up with a <code>&lt;nav&gt;</code> element because it provides the main way for users to navigate the website. It includes links to Admissions, Academics, Research and Innovation, Industry, Careers, Resources, and About. This allows users to easily access different areas of the Wayne State University website from any page.
+        </p>
+      </section>
+
+      <section>
+        <h3>Internal Navigation</h3>
+        <img src="images/internal-navigation.png" alt="Screenshot of the Computer Science internal navigation menu">
+        <p class="semantic-label">internal-nav</p>
+        <p>
+          In this section, there is an internal navigation menu specific to the Computer Science department. This should also be marked up with a <code>&lt;nav&gt;</code> element because it provides a secondary navigation system for users interested in computer science topics. It includes links to degree programs, minors, course schedules, research and faculty, student resources, and department information. This helps users quickly access related content within the computer science area of the website.
+        </p>
+      </section>
+      
+      <section>
+        <h3>Links</h3>
+        <img src="images/list-1.png" alt="Screenshot of the Lists section for the B.S. in Computer Science page">
+        <p class="semantic-label">list</p>
+        <p>
+          In this section, there are two lists that should be marked up with <code>&lt;ul&gt;</code> elements because they group related links together. The first list is the primary navigation menu, which includes links such as Admissions, Academics, Research and Innovation, Industry, Careers, Resources, and About. The second list is the internal Computer Science navigation, which includes links to degree programs, minors, course schedules, research and faculty, student resources, and department information. Both lists are unordered because the items are not in a specific sequence or order.
+        </p>
+      </section>
+
+      <section>
+        <h3>Main Content</h3>
+        <img src="images/main-content.png" alt="Screenshot of the Bachelor of Science in Computer Science main content area">
+        <p class="semantic-label">main</p>
+        <p>
+          In this section, there is a main content area that should be marked up with a <code>&lt;main&gt;</code> element because it contains the primary information about the Bachelor of Science in Computer Science program. This includes the program description, curriculum details, career outlook, and accreditation information. The main content is the central focus of the page and provides the key information that users are seeking when they visit this page, making it an appropriate use of the <code>&lt;main&gt;</code> semantic element.
+        </p>
+      </section>
+
+      <section>
+        <h3>Curriculum Section</h3>
+        <img src="images/curriculum-section.png" alt="Screenshot of the curriculum section for the B.S. in Computer Science">
+        <p class="semantic-label">section</p>
+        <p>
+          In this section, there is a curriculum section that should be marked up with a <code>&lt;section&gt;</code> element because it represents a distinct thematic grouping of content within the main content area. This section focuses specifically on the curriculum for the Bachelor of Science in Computer Science program, providing detailed information about degree requirements, course descriptions, and academic policies. Using a <code>&lt;section&gt;</code> element helps to logically organize the content and allows users to easily identify and navigate to this specific topic within the larger main content area.
+        </p>
+      </section>
+
+      <section>
+        <h3>Page Footer</h3>
+        <img src="images/footer.png" alt="Screenshot of the Wayne State University page footer">
+        <p class="semantic-label">footer</p>
+        <p>
+          In this section, there is a page footer that should be marked up with a <code>&lt;footer&gt;</code> element because it contains information that typically appears at the bottom of a webpage, such as copyright information, contact details, and additional links. The footer provides closure to the page and often includes important information that users may need after reading the main content. It is a common convention to use the <code>&lt;footer&gt;</code> semantic element for this type of content, making it an appropriate choice for this section of the page.
+        </p>
+      </section>
+    </section>
+
+    <section id="headings">
+  <h2>Heading Hierarchy</h2>
+
+  <p>
+    The page uses multiple heading levels to organize the content clearly. The page title is the main heading, while topics like curriculum, career outlook, and accreditation are lower-level headings. This helps users scan the page and understand how the information is organized.
+  </p>
+
+  <ul>
+    <li><strong>Bachelor of Science in Computer Science</strong> — H1. This is the main topic of the page.</li>
+    <li><strong>Curriculum for the B.S. in Computer Science</strong> — H2. This starts a major section about degree requirements.</li>
+    <li><strong>Career outlook for individuals with a B.S. in computer science</strong> — H2. This starts another major content section.</li>
+    <li><strong>ABET accreditation</strong> — H3. This supports the larger academic/program information section.</li>
+  </ul>
+</section>
+
+<section id="lists">
+  <h2>Lists</h2>
+
+  <h3>Primary Navigation List</h3>
+  <p>
+    The primary navigation menu includes links such as Admissions, Academics, Research and Innovation, Industry, Careers, Resources, and About. This should be marked up as an unordered list using <code>&lt;ul&gt;</code> because the items are navigation choices, not steps in a required order. The list items are links.
+  </p>
+
+  <h3>Internal Navigation List</h3>
+  <p>
+    The internal Computer Science navigation includes links to degree programs, minors, course schedules, research and faculty, student resources, and department information. This should also be marked up as an unordered list using <code>&lt;ul&gt;</code> because the links are grouped by topic but are not numbered instructions. The list items are links.
+  </p>
+</section>
+
+<section id="links">
+  <h2>Link Analysis</h2>
+
+  <h3>Internal Links</h3>
+  <ul>
+    <li>Admissions</li>
+    <li>Academics</li>
+    <li>Course schedules</li>
+  </ul>
+
+  <h3>External Links</h3>
+  <ul>
+    <li>Computer science B.S. curriculum</li>
+    <li>Computer science undergraduate course descriptions</li>
+    <li>ABET accreditation</li>
+  </ul>
+
+  <p>
+    Internal links keep users within the Wayne State University website or related Wayne State pages. External links take users to a different website, document, or outside resource. I would expect external links to open in a new tab using <code>target="_blank"</code> so users do not lose their place on the program page. The page uses an external-link icon to visually show when a link may leave the current page or open an outside resource.
+  </p>
+</section>
+
+<section id="accessibility">
+  <h2>Accessibility Review</h2>
+<a href="https://wave.webaim.org/report#/https://engineering.wayne.edu/computer-science/academics/bachelor-computer-science">
+View WAVE accessibility results for the Bachelor of Science in Computer Science page
+</a>
+  <img src="images/wave-results.png" alt="Screenshot of WAVE accessibility results">
+
+  <p>
+    This is the WAVE accessibility report for the Bachelor of Science in Computer Science page. The WAVE tool reported 0 errors, 2 contrast errors, and 2 alerts.
+    One significant accessibility issue was a redundant link that goes to the same URL.
+    Another issue was a noscript element being present.
+    A specific improvement would be to fix the redundant link.
+  </p>
+</section>
+
+<section id="validation">
+  <h2>HTML Validation</h2>
+<a href="https://validator.w3.org/check?uri=https%3A%2F%2Fengineering.wayne.edu%2Fcomputer-science%2Facademics%2Fbachelor-computer-science&charset=%28detect+automatically%29&doctype=Inline&group=0">
+View W3C HTML validation results for the Bachelor of Science in Computer Science page
+</a>
+  <img src="images/w3c-results.png" alt="Screenshot of W3C HTML validation results">
+
+  <p>
+    The W3C HTML Validator was unable to validate the selected webpage because the Wayne State University server returned a 403 Forbidden response. This prevented the validator from accessing the page source and performing a full validation check. The issue appears to be caused by server access restrictions rather than HTML errors on the page itself. A possible improvement would be to allow validation services access to public webpages so developers can verify compliance with W3C standards.
+  </p>
+</section>
+
+<section id="summary">
+  <h2>Summary</h2>
+
+  <p>
+    Overall, the Bachelor of Science in Computer Science page is well organized and demonstrates effective use of web page structure. The page contains a clear header, navigation menus, main content area, multiple headings, lists, images, and a footer. There was a part that I did not know if it qualifies as a table and have chosen to not include it because I did not know if it would be incorrectly categorized. The rest of the elements within this page make the information easy to locate and understand. The heading hierarchy and navigation systems help users move through the page efficiently. Any accessibility or validation issues discovered during testing could be improved, but the overall structure of the page follows modern web design practices and provides a positive user experience.
+  </p>
+</section>
+  </main>
+
+  <footer>
+    <p>Research project by Nick Gallagher</p>
+  </footer>
+</body>
+</html>
