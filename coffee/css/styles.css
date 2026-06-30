@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    background: #ffffff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+    background-image: url("../images/paul-gilmore-145802-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header .container {
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.motto {
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* ---------------- MENU ---------------- */
+
+#menu {
+    background: #F0F0F0;
+}
+
+#menu .container {
+    padding: 20px 40px 30px;
+}
+
+#menu h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+dd {
+    margin-left: 0;
+}
+
+/* ---------------- ABOUT ---------------- */
+
+main {
+    background: #E0E0E0;
+}
+
+main .container {
+    padding: 20px 40px 30px;
+    overflow: auto;
+}
+
+main h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+main img {
+    float: right;
+    width: 260px;
+    margin: 0 0 20px 30px;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    background: #3E1305;
+    color: white;
+}
+
+footer .container {
+    padding: 18px 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer svg {
+    fill: white;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
