@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bear in the Wild | Wildlife Video Gallery</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1>Bear in the Wild</h1>
+            <p>Wildlife Video Gallery</p>
+        </div>
+    </header>
+
+    <main class="wrapper video-page">
+        <nav class="page-navigation" aria-label="Video navigation">
+            <a class="back-link" href="index.html">
+                <span aria-hidden="true">←</span>
+                Back to Gallery
+            </a>
+        </nav>
+
+        <article class="video-details">
+            <video
+                controls
+                poster="assets/images/video-1-frame1.jpg"
+                aria-label="Bear in the Wild video">
+
+                <source
+                    src="assets/videos/video-1.mp4"
+                    type="video/mp4">
+
+                <track
+                    src="assets/captions/video-1.vtt"
+                    kind="captions"
+                    srclang="en"
+                    label="English"
+                    default>
+
+                Your browser does not support the HTML5 video element.
+            </video>
+
+            <section class="information-card" aria-labelledby="description-heading">
+                <h2 id="description-heading">Description</h2>
+
+                <p>
+                    Watch a bear walk through its habitat while exploring the
+                    surrounding environment. This short video offers a close view
+                    of the animal as it moves across the landscape.
+                </p>
+            </section>
+
+            <section class="comments-section" aria-labelledby="comments-heading">
+                <h2 id="comments-heading">Comments</h2>
+
+                <div class="comments-list">
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-1.svg"
+                            alt="Sarah's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Sarah</h3>
+
+                            <p>
+                                Amazing footage! It is incredible seeing an animal
+                                this large moving around up close.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-2.svg"
+                            alt="Michael's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Michael</h3>
+
+                            <p>
+                                The close camera angle makes the bear’s size and
+                                movement especially impressive.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; 2026 Wildlife Video Gallery</p>
+        </div>
+    </footer>
+</body>
+</html>

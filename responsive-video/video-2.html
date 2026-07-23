@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Across the Grasslands | Wildlife Video Gallery</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1>Across the Grasslands</h1>
+            <p>Wildlife Video Gallery</p>
+        </div>
+    </header>
+
+    <main class="wrapper video-page">
+        <nav class="page-navigation" aria-label="Video navigation">
+            <a class="back-link" href="index.html">
+                <span aria-hidden="true">←</span>
+                Back to Gallery
+            </a>
+        </nav>
+
+        <article class="video-details">
+            <video
+                controls
+                poster="assets/images/video-2-frame1.jpg"
+                aria-label="Across the Grasslands video">
+
+                <source
+                    src="assets/videos/video-2.mp4"
+                    type="video/mp4">
+
+                <track
+                    src="assets/captions/video-2.vtt"
+                    kind="captions"
+                    srclang="en"
+                    label="English"
+                    default>
+
+                Your browser does not support the HTML5 video element.
+            </video>
+
+            <section class="information-card" aria-labelledby="description-heading">
+                <h2 id="description-heading">Description</h2>
+
+                <p>
+                    Follow a group of animals as they travel together across an
+                    open grassland. This video highlights their movement,
+                    awareness of their surroundings, and the wide-open landscape
+                    they call home.
+                </p>
+            </section>
+
+            <section class="comments-section" aria-labelledby="comments-heading">
+                <h2 id="comments-heading">Comments</h2>
+
+                <div class="comments-list">
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-3.svg"
+                            alt="Emily's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Emily</h3>
+
+                            <p>
+                                It was fascinating watching the group stay
+                                together while moving across such a large open
+                                area.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-4.svg"
+                            alt="Daniel's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Daniel</h3>
+
+                            <p>
+                                The scenery is beautiful, and the wide camera
+                                angles really capture the scale of the
+                                grasslands.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; 2026 Wildlife Video Gallery</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frog Close-Up | Wildlife Video Gallery</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1>Frog Close-Up</h1>
+            <p>Wildlife Video Gallery</p>
+        </div>
+    </header>
+
+    <main class="wrapper video-page">
+        <nav class="page-navigation" aria-label="Video navigation">
+            <a class="back-link" href="index.html">
+                <span aria-hidden="true">←</span>
+                Back to Gallery
+            </a>
+        </nav>
+
+        <article class="video-details">
+            <video
+                controls
+                poster="assets/images/video-5-frame1.jpg"
+                aria-label="Frog Close-Up video">
+
+                <source
+                    src="assets/videos/video-5.mp4"
+                    type="video/mp4">
+
+                <track
+                    src="assets/captions/video-5.vtt"
+                    kind="captions"
+                    srclang="en"
+                    label="English"
+                    default>
+
+                Your browser does not support the HTML5 video element.
+            </video>
+
+            <section class="information-card" aria-labelledby="description-heading">
+                <h2 id="description-heading">Description</h2>
+
+                <p>
+                    Take a closer look at a frog resting in its natural
+                    environment. This short video highlights the animal's
+                    coloring, texture, and small movements in detail.
+                </p>
+            </section>
+
+            <section class="comments-section" aria-labelledby="comments-heading">
+                <h2 id="comments-heading">Comments</h2>
+
+                <div class="comments-list">
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-1.svg"
+                            alt="Ava's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Ava</h3>
+
+                            <p>
+                                The close-up view made it easy to see details I
+                                would normally miss, especially the frog's eyes
+                                and skin texture.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-3.svg"
+                            alt="Noah's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Noah</h3>
+
+                            <p>
+                                Frogs are fascinating animals. I liked how calm
+                                and detailed this footage was.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; 2026 Wildlife Video Gallery</p>
+        </div>
+    </footer>
+</body>
+</html>

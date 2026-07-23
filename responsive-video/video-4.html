@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiet Moments | Wildlife Video Gallery</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1>Quiet Moments</h1>
+            <p>Wildlife Video Gallery</p>
+        </div>
+    </header>
+
+    <main class="wrapper video-page">
+        <nav class="page-navigation" aria-label="Video navigation">
+            <a class="back-link" href="index.html">
+                <span aria-hidden="true">←</span>
+                Back to Gallery
+            </a>
+        </nav>
+
+        <article class="video-details">
+            <video
+                controls
+                poster="assets/images/video-4-frame1.jpg"
+                aria-label="Quiet Moments video">
+
+                <source
+                    src="assets/videos/video-4.mp4"
+                    type="video/mp4">
+
+                <track
+                    src="assets/captions/video-4.vtt"
+                    kind="captions"
+                    srclang="en"
+                    label="English"
+                    default>
+
+                Your browser does not support the HTML5 video element.
+            </video>
+
+            <section class="information-card" aria-labelledby="description-heading">
+                <h2 id="description-heading">Description</h2>
+
+                <p>
+                    Enjoy a peaceful look at an animal resting in its natural
+                    surroundings. This short video captures a calm moment in
+                    the wild and offers a closer view of the animal's behavior.
+                </p>
+            </section>
+
+            <section class="comments-section" aria-labelledby="comments-heading">
+                <h2 id="comments-heading">Comments</h2>
+
+                <div class="comments-list">
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-2.svg"
+                            alt="Sophia's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Sophia</h3>
+
+                            <p>
+                                This was such a peaceful video. I enjoyed seeing
+                                the animal resting without being disturbed.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-4.svg"
+                            alt="Ethan's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Ethan</h3>
+
+                            <p>
+                                The calm setting and close view made this feel
+                                like a quiet moment in nature.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; 2026 Wildlife Video Gallery</p>
+        </div>
+    </footer>
+</body>
+</html>

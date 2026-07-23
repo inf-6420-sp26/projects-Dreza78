@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birdwatching | Wildlife Video Gallery</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1>Birdwatching</h1>
+            <p>Wildlife Video Gallery</p>
+        </div>
+    </header>
+
+    <main class="wrapper video-page">
+        <nav class="page-navigation" aria-label="Video navigation">
+            <a class="back-link" href="index.html">
+                <span aria-hidden="true">←</span>
+                Back to Gallery
+            </a>
+        </nav>
+
+        <article class="video-details">
+            <video
+                controls
+                poster="assets/images/video-3-frame1.jpg"
+                aria-label="Birdwatching video">
+
+                <source
+                    src="assets/videos/video-3.mp4"
+                    type="video/mp4">
+
+                <track
+                    src="assets/captions/video-3.vtt"
+                    kind="captions"
+                    srclang="en"
+                    label="English"
+                    default>
+
+                Your browser does not support the HTML5 video element.
+            </video>
+
+            <section class="information-card" aria-labelledby="description-heading">
+                <h2 id="description-heading">Description</h2>
+
+                <p>
+                    Observe a bird in its natural habitat as it searches its
+                    surroundings and moves through the landscape. This video
+                    highlights the beauty and behavior of one of nature's most
+                    fascinating creatures.
+                </p>
+            </section>
+
+            <section class="comments-section" aria-labelledby="comments-heading">
+                <h2 id="comments-heading">Comments</h2>
+
+                <div class="comments-list">
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-1.svg"
+                            alt="Olivia's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>Olivia</h3>
+
+                            <p>
+                                I really enjoyed the close-up shots. They made it
+                                much easier to appreciate the bird's details and
+                                movements.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="comment">
+                        <img
+                            src="assets/images/avatar-3.svg"
+                            alt="James's profile avatar">
+
+                        <div class="comment-content">
+                            <h3>James</h3>
+
+                            <p>
+                                This was a relaxing video. Watching wildlife in
+                                its natural environment is always enjoyable.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; 2026 Wildlife Video Gallery</p>
+        </div>
+    </footer>
+</body>
+</html>
